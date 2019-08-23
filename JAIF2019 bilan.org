@@ -5,20 +5,19 @@
 #+LATEX_CLASS: article
 #+LATEX_CLASS_OPTIONS: [a4paper,11pt]
 #+LATEX_HEADER: \usepackage[T1]{fontenc}
+#+LATEX_HEADER: \usepackage[francais]{babel}
 #+LATEX_HEADER: \usepackage{graphicx}
 #+LATEX_HEADER: \usepackage{parskip}
 #+LATEX_HEADER: \usepackage[margin=2cm]{geometry}
 #+LATEX_COMPILER: latexmk -pdf
-#+OPTIONS:   toc:t author:t
+#+OPTIONS:   toc:1 author:t
 
 # #+LATEX_COMPILER: pdflatex
 
-#+TITLE:    JAIF 2019 @@latex:\\@@ Journée thématique sur les attaques par injection de fautes
-#+SUBTITLE:  Bilan de la journée et perspectives
+#+TITLE:    JAIF 2019 @@latex:\\@@ Journée thématique sur les attaques par injection de fautes @@latex:\\@@ 23 mai 2019 à Minatec, Grenoble
+#+SUBTITLE: Bilan de la journée et perspectives
 #+AUTHOR:  Guillaume Bouffard,  Damien Couroussé, Sylvain Guilley,  Karine Heydemann, Marie-Laure Potet
 
-# le truc vspace à la fin du SUBTITLE permet de supprimer le grand
-# espace après le sous-titre en tête de la première page
 
 * Synthèse de la journée
 
