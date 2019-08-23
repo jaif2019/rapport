@@ -1,4 +1,5 @@
 #+STARTUP: content
+#+STARTUP: align
 #+DESCRIPTION:
 #+KEYWORDS:
 #+LANGUAGE:  fr
@@ -87,30 +88,30 @@ Matériels, qui est commun au [[http://www.gdr-soc.cnrs.fr][GdR SOC2]] et au [[h
 
 La Table [[tab:budget]] détaille les subventions reçues pour la journée,
 et le principaux postes de dépenses.
+Le CEA a reçu les versement des subventions de l'IRT NanoElec et de
+l'ANSSI ; VERIMAG du Cybersecurity Institute.  Le CEA a apporté son
+soutien financier pour couvrir le reste des dépenses qui n'étaient pas
+couvertes par le sponsoring, à hauteur de 805 €.
 
-#+ATTR_LATEX: :float t :center t :placement [h]
+#+ATTR_LATEX: :float t :center t :placement [h] :align lrl
 #+caption: Synthèse du budget de la journée
 #+name: tab:budget
-|------------------------------------+---------+---------+------------------------------------------|
-|                                    | CEA     | VERIMAG | notes                                    |
-|------------------------------------+---------+---------+------------------------------------------|
-| *Subvention*                       |         |         |                                          |
-|------------------------------------+---------+---------+------------------------------------------|
-| Sponsoring IRT NanoElec            | 4 000 € |         |                                          |
-| Sponsoring ANSSI                   | 1 000 € |         |                                          |
-| Sponsoring Cyber@Alps              |         | 1 000 € |                                          |
-|------------------------------------+---------+---------+------------------------------------------|
-| *Total subvention*                 | 5 000 € | 1 000 € |                                          |
-|------------------------------------+---------+---------+------------------------------------------|
-|------------------------------------+---------+---------+------------------------------------------|
-| *Dépenses*                         |         |         |                                          |
-|------------------------------------+---------+---------+------------------------------------------|
-| Location de la salle               | 1 540 € |         | HT. Accueil Minatec – Capacité 180 pers. |
-| Restauration – repas et pauses     | 4 265 € |         | TTC. Devis pour 119 pers.                |
-| A/R Paris-Grenoble pour un orateur |         | 250 €   | Thomas Trouchkine                        |
-|------------------------------------+---------+---------+------------------------------------------|
-| *Total des dépenses*               | 5 805 € | 250 €   |                                          |
-|------------------------------------+---------+---------+------------------------------------------|
+|------------------------------------+---------+------------------------------------------|
+|                                    | Montant | Notes                                    |
+|------------------------------------+---------+------------------------------------------|
+| Sponsoring IRT NanoElec            | 4 000 € |                                          |
+| Sponsoring ANSSI                   | 1 000 € |                                          |
+| Sponsoring Cyber@Alps              | 1 000 € |                                          |
+|------------------------------------+---------+------------------------------------------|
+| *Total subvention*                 | 6 000 € |                                          |
+|------------------------------------+---------+------------------------------------------|
+|------------------------------------+---------+------------------------------------------|
+| Location de la salle               | 1 540 € | HT. Accueil Minatec – Capacité 180 pers. |
+| Restauration – repas et pauses     | 4 265 € | TTC. Devis pour 119 pers.                |
+| A/R Paris-Grenoble pour un orateur | 250 €   |                                          |
+|------------------------------------+---------+------------------------------------------|
+| *Total des dépenses*               | 6 055 € |                                          |
+|------------------------------------+---------+------------------------------------------|
 
 * Participants
 
