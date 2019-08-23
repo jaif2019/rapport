@@ -8,8 +8,10 @@
 #+LATEX_HEADER: \usepackage{graphicx}
 #+LATEX_HEADER: \usepackage{parskip}
 #+LATEX_HEADER: \usepackage[margin=2cm]{geometry}
-#+LATEX_COMPILER: pdflatex
+#+LATEX_COMPILER: latexmk -pdf
 #+OPTIONS:   toc:t author:t
+
+# #+LATEX_COMPILER: pdflatex
 
 #+TITLE:    JAIF 2019 @@latex:\\@@ Journée thématique sur les attaques par injection de fautes
 #+SUBTITLE:  Bilan de la journée et perspectives
@@ -26,9 +28,89 @@ par injection de fautes qui s'est tenue le 23 mai 2019 à Minatec, Grenoble.
 Le site internet mise en place pour la journée se trouve ici :
 https://jaif2019.github.io
 
-* Budget
+** Objectifs de la journée
 
-- [ ] TODO
+Cette journée s’inscrivait dans la suite de la journée [[https://lazart.gricad-pages.univ-grenoble-alpes.fr/sertif/pages/workshop.html][SERTIF]] organisée
+en 2016 à Grenoble,
+puis de la journée [[https://wp-systeme.lip6.fr/jaif][JAIF]] organisée en 2018 à Paris.
+
+Le workshop avait pour objectif de réunir la communauté de la
+recherche française en analyse de fautes sur des systèmes de sécurité,
+pour consolider ce savoir-faire et pour faire émerger des recherches
+plus globales.  Notre communauté est très avancée sur le plan mondial,
+et travaille sur des aspects variés :
+
++ attaques à l'aide d'injection de fautes, et modèles de fautes,
++ simulation et méthodes formelles pour évaluer la robustesse d'un
+  système à une attaque par injection de fautes, et pour comprendre
+  l’impact des fautes,
++ preuve de sécurité,
++ conception de contremesures matérielles ou logicielles,
++ application outillée de contremesures,
++ etc.
+
+Le contexte des systèmes embarqués sécurisés évolue
+rapidement, et il est important d’envisager l’évolution des
+attaques mais aussi des systèmes.
+On assiste aujourd’hui à un changement de paradigme pour aller de
+systèmes fermés, tels que la carte à puce, vers des systèmes ouverts qui
+embarquent des enclaves sécurisées (e.g. Trusted Execution
+Environments).  Également, les attaques exploitant les injections de
+fautes deviennent plus complexes, avec par exemple la possibilité de
+réaliser des injections multiples ou la combinaison avec des
+observations de canaux cachés.
+
+Le [[./programme.html][programme de cette journée]] est construit de sorte à favoriser les échanges entre les participants sur
+l’ensemble de ces sujets, au travers de présentations et de
+discussions.
+
+** Comité d'organisation
+
+Le comité d'organisation se composait des personnes suivantes:
+
++   Guillaume Bouffard,  ANSSI
++   Damien Couroussé, CEA  (chair)
++   Sylvain Guilley, Telecom ParisTech / Secure-IC
++   Karine Heydemann, Sorbonne Université / LIP6
++   Marie-Laure Potet, VÉRIMAG,  Grenoble Alpes Cybersecurity Institute
+
+* Soutien financier et institutionnel
+
+Cette journée était organisée avec le soutien financier de :
+
++ l'[[http://www.irtnanoelec.fr][IRT NanoElec]], dans le cadre du programme [[http://www.irtnanoelec.fr/technologies-de-liaison][Pulse]]
++ [[https://cybersecurity.univ-grenoble-alpes.fr/][Cybersecurity Institute Grenoble]]
++ l'[[https://www.ssi.gouv.fr][ANSSI]]
+
+Cette journée thématique était associée au GT Sécurité des Systèmes
+Matériels, qui est commun au [[http://www.gdr-soc.cnrs.fr][GdR SOC2]] et au [[https://gdr-securite.irisa.fr][GdR Sécurité Informatique]].
+
+La Table [[tab:budget]] détaille les subventions reçues pour la journée,
+et le principaux postes de dépenses.
+
+#+ATTR_LATEX: :float t :center t :placement [h]
+#+caption: Synthèse du budget de la journée
+#+name: tab:budget
+|------------------------------------+---------+---------+------------------------------------------|
+|                                    | CEA     | VERIMAG | notes                                    |
+|------------------------------------+---------+---------+------------------------------------------|
+| *Subvention*                       |         |         |                                          |
+|------------------------------------+---------+---------+------------------------------------------|
+| Sponsoring IRT NanoElec            | 4 000 € |         |                                          |
+| Sponsoring ANSSI                   | 1 000 € |         |                                          |
+| Sponsoring Cyber@Alps              |         | 1 000 € |                                          |
+|------------------------------------+---------+---------+------------------------------------------|
+| *Total subvention*                 | 5 000 € | 1 000 € |                                          |
+|------------------------------------+---------+---------+------------------------------------------|
+|------------------------------------+---------+---------+------------------------------------------|
+| *Dépenses*                         |         |         |                                          |
+|------------------------------------+---------+---------+------------------------------------------|
+| Location de la salle               | 1 540 € |         | HT. Accueil Minatec – Capacité 180 pers. |
+| Restauration – repas et pauses     | 4 265 € |         | TTC. Devis pour 119 pers.                |
+| A/R Paris-Grenoble pour un orateur |         | 250 €   | Thomas Trouchkine                        |
+|------------------------------------+---------+---------+------------------------------------------|
+| *Total des dépenses*               | 5 805 € | 250 €   |                                          |
+|------------------------------------+---------+---------+------------------------------------------|
 
 * Participants
 
@@ -46,14 +128,13 @@ matinée, et 100 environ l'après-midi.
 
 * Programme
 
-#+ATTR_LATEX: :float t :width 0.9\textwidth :placement [t]
-#+ATTR_LATEX: :caption L'assemblée des participants.
-[[file:20190523-161042_094_IMG_5318_v1.JPG]]
-
 Le programme de la journée était aménagé pour maximiser les
 interactions entre les participants.  Un temps de questions et de
 discussions, commun à toutes les présentations de la session, était
 organisé à la fin de chaque session.
+
+Quelques photos prises pendant la journée sont diffusées sur le [[https://jaif2019.github.io/photos.html][site
+internet]] du workshop.
 
 + 09:30--10:00   Accueil des participants autour d’un café
 + 10:00--10:10   Introduction à la journée
@@ -84,6 +165,10 @@ organisé à la fin de chaque session.
 + 16:45--16:50   Conclusion de la journée
 
 * Résumés des présentations
+
+#+ATTR_LATEX: :float t :width 0.9\textwidth :placement [t]
+#+CAPTION: L'assemblée des participants.
+[[file:20190523-161042_094_IMG_5318_v1.JPG]]
 
 ** Injection de fautes par médium EM : modèle et implications
     :PROPERTIES:
