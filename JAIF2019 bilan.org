@@ -19,6 +19,27 @@
 #+AUTHOR:  Guillaume Bouffard,  Damien Couroussé, Sylvain Guilley,  Karine Heydemann, Marie-Laure Potet
 
 
+#+BEGIN_abstract
+JAIF 2019 --- journée thématique sur les attaques par injection de
+fautes --- s'est tenue le 23 mai 2019 à Minatec, Grenoble.
+
+Cette journée s’inscrivait dans la suite de la journée [[https://lazart.gricad-pages.univ-grenoble-alpes.fr/sertif/pages/workshop.html][SERTIF]] organisée
+en 2016 à Grenoble,
+puis de la journée [[https://wp-systeme.lip6.fr/jaif][JAIF]] organisée en 2018 à Paris.
+Le workshop avait pour objectif de réunir la communauté de la
+recherche française en analyse de fautes sur des systèmes de sécurité,
+pour consolider ce savoir-faire et pour faire émerger des recherches
+plus globales.  Notre communauté est très avancée sur le plan mondial,
+et travaille sur des aspects très variés à l'intersection entre
+sécurité matérielle et sécurité logicielle.
+
+La journée a réuni entre 110 à 120 participants.  L'organisation de la
+journée a reçu le soutien financier de l'[[http://www.irtnanoelec.fr][IRT NanoElec]], du
+[[https://cybersecurity.univ-grenoble-alpes.fr/][Cybersecurity Institute Grenoble]], de l'[[https://www.ssi.gouv.fr][ANSSI]] et du [[http://www.cea-tech.fr][CEA]].  La journée
+était associée au GT Sécurité des Systèmes Matériels, qui est commun
+au [[http://www.gdr-soc.cnrs.fr][GdR SOC2]] et au [[https://gdr-securite.irisa.fr][GdR Sécurité Informatique]].
+#+END_abstract
+
 * Synthèse de la journée
 
 Ce document fait le bilan de la journée thématique sur les attaques
@@ -101,9 +122,9 @@ déplacement à la journée.
 
 *** Lien avec le GdR Ondes
 
-Le GT « compatibilité électromagnétique » du GDR ondes a organisé
-cette année une journée thématique « Sécurité des systèmes
-électroniques et communicants » ([[http://gdr-ondes.cnrs.fr/2019/02/14/journee-thematique-securite-des-systemes-electroniques-et-communicants-21-mai-2019-paris-jussieu][site internet]]).  Cette journée
+Le GT « compatibilité électromagnétique » du GDR ondes a organisé
+cette année une journée thématique « Sécurité des systèmes
+électroniques et communicants » ([[http://gdr-ondes.cnrs.fr/2019/02/14/journee-thematique-securite-des-systemes-electroniques-et-communicants-21-mai-2019-paris-jussieu][site internet]]).  Cette journée
 mélangeait plusieurs problématiques de sécurité pertinentes pour
 toutes nos communautés.  À cette occasion, nous avons pu échanger avec
 les organisateurs sur l'opportunité d'un évènement commun aux deux
