@@ -1,4 +1,4 @@
-% Created 2019-08-23 ven. 13:45
+% Created 2019-08-23 ven. 14:10
 \documentclass[a4paper,11pt]{article}
 \usepackage[utf8x]{inputenc}
 \usepackage[T1]{fontenc}
@@ -34,8 +34,8 @@
 \tableofcontents
 
 
-\section{Introduction}
-\label{sec:org6399a83}
+\section{Synthèse de la journée}
+\label{sec:org1cc37e9}
 
 Ce document fait le bilan de la journée thématique sur les attaques
 par injection de fautes qui s'est tenue le 23 mai 2019 à Minatec, Grenoble.
@@ -43,8 +43,13 @@ par injection de fautes qui s'est tenue le 23 mai 2019 à Minatec, Grenoble.
 Le site internet mise en place pour la journée se trouve ici :
 \url{https://jaif2019.github.io}
 
+
+Le programme de la journée et les résumés des présentations
+scientifiques et techniques sont détaillés à la fin de ce document,
+dans les sections \ref{sec:orgde28ace} et \ref{sec:orgde60165}.
+
 \subsection{Objectifs de la journée}
-\label{sec:org4953216}
+\label{sec:orgfd582d4}
 
 Cette journée s’inscrivait dans la suite de la journée \href{https://lazart.gricad-pages.univ-grenoble-alpes.fr/sertif/pages/workshop.html}{SERTIF} organisée
 en 2016 à Grenoble,
@@ -83,7 +88,7 @@ l’ensemble de ces sujets, au travers de présentations et de
 discussions.
 
 \subsection{Comité d'organisation}
-\label{sec:org1dac3cd}
+\label{sec:orgbb70232}
 
 Le comité d'organisation se composait des personnes suivantes:
 
@@ -95,8 +100,36 @@ Le comité d'organisation se composait des personnes suivantes:
 \item Marie-Laure Potet, VÉRIMAG,  Grenoble Alpes Cybersecurity Institute
 \end{itemize}
 
+\section{Perspectives}
+\label{sec:org4c08a55}
+
+Les retours des participants ont été très positifs.
+
+Nous avons déjà prévu l'organisation d'une nouvelle journée en 2020.
+Cette journée se tiendra probablement à Rennes ou à Paris ;  Rennes
+bénéficie d'une très forte dynamique sur toutes les activités liées à
+la cybersécurité, et Paris jouit d'une position géographique centrale
+en France permettant à un grand nombre de participants de faire le
+déplacement à la journée.
+
+
+\begin{itemize}
+\item[{$\square$}] TODO.  à compléter
+
+\item Quelle suite donner à ces journées ?  Une pérennisation, sous quelle
+forme ?  Un rattachement institutionnel (e.g. GDR) ?
+\item Etre plus présents dans les grands événements internationaux sur les
+fautes : FDTC, ISTFA, CHES, CCS, Esorics, Usenix, S\&P …
+\item Travailler sur des use-cases "un peu complexes" communs et des
+plate-formes d’expérimentation
+\item Partager/mutualiser les travaux de chacun. Via les outils ? Une
+conférence semi-annuelle ?
+\end{itemize}
+
+
+
 \section{Soutien financier et institutionnel}
-\label{sec:org665a777}
+\label{sec:orgfe2cee2}
 
 Cette journée était organisée avec le soutien financier de :
 
@@ -109,21 +142,15 @@ Cette journée était organisée avec le soutien financier de :
 Cette journée thématique était associée au GT Sécurité des Systèmes
 Matériels, qui est commun au \href{http://www.gdr-soc.cnrs.fr}{GdR SOC2} et au \href{https://gdr-securite.irisa.fr}{GdR Sécurité Informatique}.
 
-La Table \ref{tab:orgb08906e} détaille les subventions reçues pour la journée,
+La Table \ref{tab:orgf880e4e} détaille les subventions reçues pour la journée,
 et le principaux postes de dépenses.
-
 Le CEA a reçu les versement des subventions de l'IRT NanoElec et de
-l'ANSSI ; et VERIMAG du cybersecurity Institute.  Le CEA a apporté son
+l'ANSSI ; VERIMAG du Cybersecurity Institute.  Le CEA a apporté son
 soutien financier pour couvrir le reste des dépenses qui n'étaient pas
 couvertes par le sponsoring, à hauteur de 805 €.
 
-
-\begin{itemize}
-\item[{$\square$}] TODO alignement table
-\end{itemize}
-
 \begin{table}[h]
-\caption{\label{tab:orgb08906e}
+\caption{\label{tab:orgf880e4e}
 Synthèse du budget de la journée}
 \centering
 \begin{tabular}{lrl}
@@ -147,9 +174,10 @@ A/R Paris-Grenoble pour un orateur & 250 € & \\
 \end{table}
 
 \section{Participants}
-\label{sec:org357c91f}
+\label{sec:org95137d4}
 
 Nous avons eu 128 inscriptions à la journée,
+
 \begin{itemize}
 \item dont 53 personnes basées en région grenobloise.
 \item 35 participants étaient industriels,
@@ -160,15 +188,19 @@ Pendant la journée, nous avons compté 115 participants environ la
 matinée, et 100 environ l'après-midi.
 
 \section{Retours sur le sondage post-journée}
-\label{sec:org8f50653}
+\label{sec:org3fff184}
+
+Les participants à la journée ont fait des retours très positifs sur
+l'intérêt de ce type de journée, sur cette thématique scientifique en
+particulier.
+
 
 \begin{itemize}
-\item[{$\square$}] TODO
+\item[{$\square$}] TODO.  compléter avec une synthèse du sondage
 \end{itemize}
 
 \section{Programme}
-\label{sec:org97889ff}
-
+\label{sec:orgde28ace}
 Le programme de la journée était aménagé pour maximiser les
 interactions entre les participants.  Un temps de questions et de
 discussions, commun à toutes les présentations de la session, était
@@ -182,44 +214,43 @@ internet} du workshop.
 \item 10:00--10:10   Introduction à la journée
 \item 10:10--11:25   \textbf{Session \#1. Injection de fautes}
 \begin{itemize}
-\item \hyperref[sec:orgba3b91e]{Philippe Maurine} (LIRRM). \emph{Injection de fautes par médium EM : modèle et implications.}
-\item \hyperref[sec:org7bbd5c3]{Brice Colombier} (Univ. Saint-Étienne). \emph{On-the-fly laser-induced corruption of the firmware stored into the flash memory of a 32-bit microcontroller.}
-\item \hyperref[sec:orgf091ca1]{Ronan Lashermes, Thomas Trouchkine} (INRIA, ANSSI). \emph{How modern System-on-Chips are vulnerable to fault attacks.}
+\item \hyperref[sec:org083b474]{Philippe Maurine} (LIRRM). \emph{Injection de fautes par médium EM : modèle et implications.}
+\item \hyperref[sec:org1d03feb]{Brice Colombier} (Univ. Saint-Étienne). \emph{On-the-fly laser-induced corruption of the firmware stored into the flash memory of a 32-bit microcontroller.}
+\item \hyperref[sec:org6b22118]{Ronan Lashermes, Thomas Trouchkine} (INRIA, ANSSI). \emph{How modern System-on-Chips are vulnerable to fault attacks.}
 \end{itemize}
 \item 11:25--11:40   Pause
 \item 11:40--12:30   \textbf{Session \#2. Architectures matérielles robustes}
 \begin{itemize}
-\item \hyperref[sec:org547b6db]{Vincent Beroulle} (LCIS Valence). \emph{Analyse de fautes au niveau RTL.}
-\item \hyperref[sec:org45a51e5]{Olivier Savry} (CEA). \emph{IntrinSec: an intrinsically secure RISC V processor.}
+\item \hyperref[sec:org9c9a818]{Vincent Beroulle} (LCIS Valence). \emph{Analyse de fautes au niveau RTL.}
+\item \hyperref[sec:org6c748c8]{Olivier Savry} (CEA). \emph{IntrinSec: an intrinsically secure RISC V processor.}
 \item Discussion
 \end{itemize}
 \item 12:30--13:45   Déjeuner
 \item 13:45--14:35   \textbf{Session \#3. Questions ouvertes sur la sécurité des systèmes}
 \begin{itemize}
-\item \hyperref[sec:org1d42353]{Guillaume Bouffard} (ANSSI). \emph{Certification et IoT.}
-\item \hyperref[sec:org8177998]{Laurent Mounier et Marie-Laure Potet} (VERIMAG). \emph{Concevoir des applications robustes à l’injection de fautes (projet CLAPs).}
+\item \hyperref[sec:org2813cfd]{Guillaume Bouffard} (ANSSI). \emph{Certification et IoT.}
+\item \hyperref[sec:orge7a693b]{Laurent Mounier et Marie-Laure Potet} (VERIMAG). \emph{Concevoir des applications robustes à l’injection de fautes (projet CLAPs).}
 \item Discussion
 \end{itemize}
 \item 14:35--14:50   Pause
 \item 14:50--15:40   \textbf{Session \#4. Protections logicielles}
 \begin{itemize}
-\item \hyperref[sec:org4931aa8]{François de Ferrière} (STMicroelectronics). \emph{Compilation de contre-mesures.}
-\item \hyperref[sec:org1ddb14d]{Julien Proy} (INVIA). \emph{Sécurisation automatisée des boucles à la compilation.}
+\item \hyperref[sec:orga9943e4]{François de Ferrière} (STMicroelectronics). \emph{Compilation de contre-mesures.}
+\item \hyperref[sec:orgafd022e]{Julien Proy} (INVIA). \emph{Sécurisation automatisée des boucles à la compilation.}
 \item Discussion
 \end{itemize}
 \item 15:40--15:55   Pause
 \item 15:55--16:45   \textbf{Session \#5. Analyse de code}
 \begin{itemize}
-\item \hyperref[sec:org4404ef3]{David Féliot} (CEA Grenoble). \emph{Techniques d’analyse statique pour détecter des vulnérabilités sécuritaires lors d’une revue de code.}
-\item \hyperref[sec:orgb657c8f]{Jean-Baptiste Bréjon} (LIP6). \emph{Évaluation sécuritaire de code binaire soumis à des attaques en faute.}
+\item \hyperref[sec:orgafcdb57]{David Féliot} (CEA Grenoble). \emph{Techniques d’analyse statique pour détecter des vulnérabilités sécuritaires lors d’une revue de code.}
+\item \hyperref[sec:orgcd8f2b1]{Jean-Baptiste Bréjon} (LIP6). \emph{Évaluation sécuritaire de code binaire soumis à des attaques en faute.}
 \item Discussion
 \end{itemize}
 \item 16:45--16:50   Conclusion de la journée
 \end{itemize}
 
 \section{Résumés des présentations}
-\label{sec:orgc97255b}
-
+\label{sec:orgde60165}
 \begin{figure}[t]
 \centering
 \includegraphics[width=0.9\textwidth]{20190523-161042_094_IMG_5318_v1.JPG}
@@ -227,7 +258,7 @@ internet} du workshop.
 \end{figure}
 
 \subsection{Injection de fautes par médium EM : modèle et implications}
-\label{sec:orgba3b91e}
+\label{sec:org083b474}
 \emph{Philippe Maurine (LIRMM)}
 
 La première publication traitant d’attaques par faute(s) conduites par
@@ -241,7 +272,7 @@ tant pour établir des pistes de contremesures que des moyens
 d’améliorations des plateformes d’injection EM.
 
 \subsection{On-the-fly laser-induced corruption of the firmware stored into the flash memory of a 32-bit microcontroller}
-\label{sec:org7bbd5c3}
+\label{sec:org1d03feb}
 \emph{Brice Colombier (CEA)}, \emph{Alexandre Menu (EMSE)}, \emph{Jean-Max Dutertre (EMSE)}, \emph{Pierre-Alain Moëllic (CEA)}, \emph{Jean-Baptiste Rigaud (EMSE)}, \emph{Jean-Luc Danger (Telecom ParisTech)}
 
  L'injection de faute laser est souvent considérée comme la
@@ -262,7 +293,7 @@ caractéristiques physiques de la micro-architecture qui permet
 d'expliquer le modèle de faute observé.
 
 \subsection{How modern System-on-Chips are vulnerable to fault attacks}
-\label{sec:orgf091ca1}
+\label{sec:org6b22118}
 \emph{Guillaume Bouffard (ANSSI)}, \emph{Sébanjila Kevin Bukasa (INRIA)},
 \emph{Mathieu Escouteloup (INRIA)}, \emph{Ronan Lashermes (INRIA)}, \emph{Thomas
 Trouchkine (ANSSI)}
@@ -290,7 +321,7 @@ We advocate for the design of secure generic cores with a stronger security
 model to run all security related code (which emcompass all priviledged code).
 
 \subsection{Analyse de fautes au niveau RTL}
-\label{sec:org547b6db}
+\label{sec:org9c9a818}
 \emph{Vincent Beroulle (LCIS Valence)}
 
 Dans cet exposé, nous présenterons une méthode d’évaluation et
@@ -313,7 +344,7 @@ processeur. Finalement, nous proposerons des contremesures logicielles
 robustes contre ces attaques en faute.
 
 \subsection{IntrinSec: an intrinsically secure RISC V processor}
-\label{sec:org45a51e5}
+\label{sec:org6c748c8}
 \emph{Olivier Savry (CEA)}
 
 Dans le cadre du projet Nanotrust soutenu par l’IRT Nanoelec nous
@@ -327,13 +358,13 @@ overflows. Toute déviation du graphe de flot de contrôle est ainsi
 détecter par une erreur à la vérification des MAC.
 
 \subsection{Certification et IoT}
-\label{sec:org1d42353}
+\label{sec:org2813cfd}
 \emph{Guillaume Bouffard (ANSSI)}
 
 Résumé à venir.
 
 \subsection{Concevoir des applications robustes à l'injection de fautes (projet CLAPs)}
-\label{sec:org8177998}
+\label{sec:orge7a693b}
 \emph{Laurent Mounier} et \emph{Marie-Laure Potet (VERIMAG)}
 
 Concevoir des applications robustes à l'injection de fautes est un
@@ -355,7 +386,7 @@ issues du benchmark FISSC et sur une application interne au projet, un
 Firmware Update.
 
 \subsection{Compilation de contre-mesures}
-\label{sec:org4931aa8}
+\label{sec:orga9943e4}
 \emph{François de Ferrière (STMicroelectronics Grenoble)}
 
 STMicroelectronics développe des outils de compilation basés sur la
@@ -376,7 +407,7 @@ certaines régions critiques d'une application afin de satisfaire les
 contraintes industrielles de taille et de performances de ces applications.
 
 \subsection{Sécurisation automatisée des boucles à la compilation}
-\label{sec:org1ddb14d}
+\label{sec:orgafd022e}
 \emph{Julien Proy (INVIA)},
 \emph{Karine Heydemann (Univ. Sorbonne, Paris)},
 \emph{Alexandre Berzati (INVIA)},
@@ -391,13 +422,13 @@ Une implémentation dans le compilateur LLVM ainsi qu'une étude des interaction
 Enfin, nous montrons les résultats associés provenant de simulations et de campagnes d'attaques physiques.
 
 \subsection{Techniques d'analyse statique pour détecter des vulnérabilités sécuritaires lors d'une revue de code}
-\label{sec:org4404ef3}
+\label{sec:orgafcdb57}
 \emph{David Féliot (CEA Grenoble)}
 
 L'évaluation de la résistance aux attaques d'un produit de type carte à puce comprend une revue de code du logiciel embarqué. L'objectif de cette revue est de détecter dans le code source des vulnérabilités qui peuvent être exploitées par un attaquant pour forcer ou contourner des fonctions de sécurité, par exemple une fonction de contrôle d'accès. L'exposé présentera d'une part les spécificités et les contraintes liées à l'activité d'évaluation sécuritaire, et d'autre part l'apport des techniques d'analyse statique pour augmenter la fiabilité et l'efficacité de la revue de code.
 
 \subsection{Évaluation sécuritaire de code binaire soumis à des attaques en faute}
-\label{sec:orgb657c8f}
+\label{sec:orgcd8f2b1}
 \emph{Jean-Baptiste Bréjon (LIP6)},
 \emph{Karine Heydemann (Univ. Sorbonne, Paris)},
 \emph{Emmanuelle Encrenaz (Univ. Sorbonne, Paris)},

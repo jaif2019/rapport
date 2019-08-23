@@ -1,5 +1,4 @@
 #+STARTUP: content
-#+STARTUP: align
 #+DESCRIPTION:
 #+KEYWORDS:
 #+LANGUAGE:  fr
@@ -21,13 +20,18 @@
 # le truc vspace à la fin du SUBTITLE permet de supprimer le grand
 # espace après le sous-titre en tête de la première page
 
-* Introduction
+* Synthèse de la journée
 
 Ce document fait le bilan de la journée thématique sur les attaques
 par injection de fautes qui s'est tenue le 23 mai 2019 à Minatec, Grenoble.
 
 Le site internet mise en place pour la journée se trouve ici :
 https://jaif2019.github.io
+
+
+Le programme de la journée et les résumés des présentations
+scientifiques et techniques sont détaillés à la fin de ce document,
+dans les sections [[#sec:programme]] et [[#sec:resumes]].
 
 ** Objectifs de la journée
 
@@ -75,6 +79,31 @@ Le comité d'organisation se composait des personnes suivantes:
 +   Karine Heydemann, Sorbonne Université / LIP6
 +   Marie-Laure Potet, VÉRIMAG,  Grenoble Alpes Cybersecurity Institute
 
+** Perspectives
+
+Les retours des participants ont été très positifs.
+
+Nous avons déjà prévu l'organisation d'une nouvelle journée en 2020.
+Cette journée se tiendra probablement à Rennes ou à Paris ;  Rennes
+bénéficie d'une très forte dynamique sur toutes les activités liées à
+la cybersécurité, et Paris jouit d'une position géographique centrale
+en France permettant à un grand nombre de participants de faire le
+déplacement à la journée.
+
+
+- [ ] TODO.  à compléter
+
++ Quelle suite donner à ces journées ?  Une pérennisation, sous quelle
+  forme ?  Un rattachement institutionnel (e.g. GDR) ?
++ Etre plus présents dans les grands événements internationaux sur les
+  fautes : FDTC, ISTFA, CHES, CCS, Esorics, Usenix, S&P …
++ Travailler sur des use-cases "un peu complexes" communs et des
+  plate-formes d’expérimentation
++ Partager/mutualiser les travaux de chacun. Via les outils ? Une
+  conférence semi-annuelle ?
+
+
+
 * Soutien financier et institutionnel
 
 Cette journée était organisée avec le soutien financier de :
@@ -116,6 +145,7 @@ couvertes par le sponsoring, à hauteur de 805 €.
 * Participants
 
 Nous avons eu 128 inscriptions à la journée,
+
 + dont 53 personnes basées en région grenobloise.
 + 35 participants étaient industriels,
 + 33 participants étaient affiliés au CEA Grenoble.
@@ -125,9 +155,17 @@ matinée, et 100 environ l'après-midi.
 
 * Retours sur le sondage post-journée
 
-- [ ] TODO
+Les participants à la journée ont fait des retours très positifs sur
+l'intérêt de ce type de journée, sur cette thématique scientifique en
+particulier.
+
+
+- [ ] TODO.  compléter avec une synthèse du sondage
 
 * Programme
+  :PROPERTIES:
+  :CUSTOM_ID: sec:programme
+  :END:
 
 Le programme de la journée était aménagé pour maximiser les
 interactions entre les participants.  Un temps de questions et de
@@ -166,6 +204,9 @@ internet]] du workshop.
 + 16:45--16:50   Conclusion de la journée
 
 * Résumés des présentations
+  :PROPERTIES:
+  :CUSTOM_ID: sec:resumes
+  :END:
 
 #+ATTR_LATEX: :float t :width 0.9\textwidth :placement [t]
 #+CAPTION: L'assemblée des participants.
