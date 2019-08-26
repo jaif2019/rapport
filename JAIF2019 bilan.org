@@ -98,41 +98,6 @@ Le comité d'organisation se composait des personnes suivantes:
 +   Karine Heydemann, Sorbonne Université / LIP6
 +   Marie-Laure Potet, VÉRIMAG,  Grenoble Alpes Cybersecurity Institute
 
-** Perspectives
-
-Les retours des participants ont été très positifs.
-
-Nous avons déjà prévu l'organisation d'une nouvelle journée en 2020.
-Cette journée se tiendra probablement à Rennes ou à Paris ;  Rennes
-bénéficie d'une très forte dynamique sur toutes les activités liées à
-la cybersécurité, et Paris jouit d'une position géographique centrale
-en France permettant à un grand nombre de participants de faire le
-déplacement à la journée.
-
-- [ ] TODO.  à compléter
-
-+ Quelle suite donner à ces journées ?  Une pérennisation, sous quelle
-  forme ?  Un rattachement institutionnel (e.g. GDR) ?
-+ Etre plus présents dans les grands événements internationaux sur les
-  fautes : FDTC, ISTFA, CHES, CCS, Esorics, Usenix, S&P …
-+ Travailler sur des use-cases "un peu complexes" communs et des
-  plate-formes d’expérimentation
-+ Partager/mutualiser les travaux de chacun. Via les outils ? Une
-  conférence semi-annuelle ?
-
-*** Lien avec le GdR Ondes
-
-Le GT « compatibilité électromagnétique » du GDR ondes a organisé
-cette année une journée thématique « Sécurité des systèmes
-électroniques et communicants » ([[http://gdr-ondes.cnrs.fr/2019/02/14/journee-thematique-securite-des-systemes-electroniques-et-communicants-21-mai-2019-paris-jussieu][site internet]]).  Cette journée
-mélangeait plusieurs problématiques de sécurité pertinentes pour
-toutes nos communautés.  À cette occasion, nous avons pu échanger avec
-les organisateurs sur l'opportunité d'un évènement commun aux deux
-communautés, ou que les journées thématiques soient concomittantes
-pour que les participants puissent facilement assister aux deux
-évènements.  Aucune action n'a été concrètement envisagée pour le
-moment.
-
 * Soutien financier et institutionnel
 
 Cette journée était organisée avec le soutien financier de :
@@ -189,6 +154,27 @@ l'intérêt de ce type de journée, sur cette thématique scientifique en
 particulier.
 
 - [ ] TODO.  compléter avec une synthèse du sondage
+
+* Perspectives
+
+Le public intéressé par ce sujet en France est nombreux et motivé. De
+plus, au vu du sondage, le format proposé est bien adapté. Nous avons
+donc décidé de péréniser ces journées dans le temps (au moins tant que
+la communauté est présente et intéressée). Nous mettons en place un
+comité de pilotage constitué des organisateurs de la version 2019 et
+la prochaine édition sera organisée par Sylvain Guilley et Guillaume
+Bouffard à Paris.
+
+*Lien avec le GdR Ondes.* Le GT « compatibilité électromagnétique » du
+GDR ondes a organisé cette année une journée thématique « Sécurité des
+systèmes électroniques et communicants » ([[http://gdr-ondes.cnrs.fr/2019/02/14/journee-thematique-securite-des-systemes-electroniques-et-communicants-21-mai-2019-paris-jussieu][site internet]]),
+l'avant-veille de JAIF 2019.  Cette journée mélangeait plusieurs
+problématiques de sécurité pertinentes pour toutes nos communautés.  À
+cette occasion, nous avons pu échanger avec les organisateurs sur
+l'opportunité d'un évènement commun aux deux communautés, ou que les
+journées thématiques soient concomittantes pour que les participants
+puissent facilement assister aux deux évènements.  Aucune action n'a
+été concrètement envisagée pour le moment.
 
 * Programme
     :PROPERTIES:
