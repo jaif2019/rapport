@@ -103,7 +103,7 @@ Le comité d'organisation se composait des personnes suivantes:
 Cette journée était organisée avec le soutien financier de :
 
 + l'[[http://www.irtnanoelec.fr][IRT NanoElec]], dans le cadre du programme [[http://www.irtnanoelec.fr/technologies-de-liaison][Pulse]]
-+ [[https://cybersecurity.univ-grenoble-alpes.fr/][Cybersecurity Institute Grenoble]]
++ [[https://cybersecurity.univ-grenoble-alpes.fr][Grenoble Alpes Cybersecurity Institute]]
 + l'[[https://www.ssi.gouv.fr][ANSSI]]
 
 Cette journée thématique était associée au GT Sécurité des Systèmes
@@ -112,7 +112,7 @@ Matériels, qui est commun au [[http://www.gdr-soc.cnrs.fr][GdR SOC2]] et au [[h
 La Table [[tab:budget]] détaille les subventions reçues pour la journée,
 et le principaux postes de dépenses.
 Le CEA a reçu les versement des subventions de l'IRT NanoElec et de
-l'ANSSI ; VERIMAG du Cybersecurity Institute.  Le CEA a apporté son
+l'ANSSI ; VERIMAG du Grenoble Alpes Cybersecurity Institute.  Le CEA a apporté son
 soutien financier pour couvrir le reste des dépenses qui n'étaient pas
 couvertes par le sponsoring, à hauteur de 805 €.
 
