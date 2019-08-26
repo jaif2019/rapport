@@ -163,8 +163,8 @@ plus, au vu du sondage, le format proposé est bien adapté. Nous avons
 donc décidé de péréniser ces journées dans le temps (au moins tant que
 la communauté est présente et intéressée). Nous mettons en place un
 comité de pilotage constitué des organisateurs de la version 2019 et
-la prochaine édition sera organisée par Sylvain Guilley et Guillaume
-Bouffard à Paris.
+la prochaine édition sera organisée à Paris par Sylvain Guilley et Guillaume
+Bouffard.
 
 *Lien avec le GdR Ondes.* Le GT « compatibilité électromagnétique » du
 GDR ondes a organisé cette année une journée thématique « Sécurité des
