@@ -18,6 +18,7 @@
 #+SUBTITLE: Bilan de la journée et perspectives
 #+AUTHOR:  Guillaume Bouffard,  Damien Couroussé, Sylvain Guilley,  Karine Heydemann, Marie-Laure Potet
 
+
 #+BEGIN_abstract
 JAIF 2019 --- journée thématique sur les attaques par injection de
 fautes --- s'est tenue le 23 mai 2019 à Minatec, Grenoble.
@@ -39,6 +40,8 @@ journée a reçu le soutien financier de l'[[http://www.irtnanoelec.fr][IRT Nano
 au [[http://www.gdr-soc.cnrs.fr][GdR SOC2]] et au [[https://gdr-securite.irisa.fr][GdR Sécurité Informatique]].
 #+END_abstract
 
+
+#+latex: \pagebreak
 * Synthèse de la journée
 
 Ce document fait le bilan de la journée thématique sur les attaques
@@ -97,6 +100,19 @@ Le comité d'organisation se composait des personnes suivantes:
 +   Karine Heydemann, Sorbonne Université / LIP6
 +   Marie-Laure Potet, VÉRIMAG,  Grenoble Alpes Cybersecurity Institute
 
+
+* Participants
+
+Nous avons eu 128 inscriptions à la journée,
+
++ dont 53 personnes basées en région grenobloise.
++ 35 participants étaient industriels,
++ 93 participants étaient académiques ou assimilés,
++ 33 participants étaient affiliés au CEA Grenoble.
+
+Pendant la journée, nous avons compté 115 participants environ la
+matinée, et 100 environ l'après-midi.
+
 * Soutien financier et institutionnel
 
 Cette journée était organisée avec le soutien financier de :
@@ -105,9 +121,6 @@ Cette journée était organisée avec le soutien financier de :
 + [[https://cybersecurity.univ-grenoble-alpes.fr][Grenoble Alpes Cybersecurity Institute]]
 + l'[[https://www.ssi.gouv.fr][ANSSI]]
 
-Cette journée thématique était associée au GT Sécurité des Systèmes
-Matériels, qui est commun au [[http://www.gdr-soc.cnrs.fr][GdR SOC2]] et au [[https://gdr-securite.irisa.fr][GdR Sécurité Informatique]].
-
 La Table [[tab:budget]] détaille les subventions reçues pour la journée,
 et le principaux postes de dépenses.
 Le CEA a reçu les versement des subventions de l'IRT NanoElec et de
@@ -115,7 +128,10 @@ l'ANSSI ; VERIMAG du Grenoble Alpes Cybersecurity Institute.  Le CEA a apporté 
 soutien financier pour couvrir le reste des dépenses qui n'étaient pas
 couvertes par le sponsoring, à hauteur de 805 €.
 
-#+ATTR_LATEX: :float t :center t :placement [h] :align lrl
+Cette journée thématique était associée au GT Sécurité des Systèmes
+Matériels, qui est commun au [[http://www.gdr-soc.cnrs.fr][GdR SOC2]] et au [[https://gdr-securite.irisa.fr][GdR Sécurité Informatique]].
+
+#+ATTR_LATEX: :float t :center t :align lrl
 #+caption: Synthèse du budget de la journée
 #+name: tab:budget
 |------------------------------------+---------+------------------------------------------|
@@ -134,18 +150,6 @@ couvertes par le sponsoring, à hauteur de 805 €.
 |------------------------------------+---------+------------------------------------------|
 | *Total des dépenses*               | 6 055 € |                                          |
 |------------------------------------+---------+------------------------------------------|
-
-* Participants
-
-Nous avons eu 128 inscriptions à la journée,
-
-+ dont 53 personnes basées en région grenobloise.
-+ 35 participants étaient industriels,
-+ 93 participants étaient académiques ou assimilés,
-+ 33 participants étaient affiliés au CEA Grenoble.
-
-Pendant la journée, nous avons compté 115 participants environ la
-matinée, et 100 environ l'après-midi.
 
 * Retours sur le sondage post-journée
 
@@ -197,38 +201,39 @@ Le programme de la journée était aménagé pour maximiser les
 interactions entre les participants.  Un temps de questions et de
 discussions, commun à toutes les présentations de la session, était
 organisé à la fin de chaque session.
-
-Quelques photos prises pendant la journée sont diffusées sur le [[https://jaif2019.github.io/photos.html][site
+Quelques photos de la journée sont diffusées sur le [[https://jaif2019.github.io/photos.html][site
 internet]] du workshop.
 
-+ 09:30--10:00   Accueil des participants autour d’un café
-+ 10:00--10:10   Introduction à la journée
-+ 10:10--11:25   *Session #1. Injection de fautes*
++ 09h30--10h00   Accueil des participants autour d’un café
++ 10h00--10h10   Introduction à la journée
++ 10h10--11h25   *Session #1. Injection de fautes*
   + [[#maurine][Philippe Maurine]] (LIRRM). /Injection de fautes par médium EM : modèle et implications./
   + [[#colombier][Brice Colombier]] (Univ. Saint-Étienne). /On-the-fly laser-induced corruption of the firmware stored into the flash memory of a 32-bit microcontroller./
   + [[#lashermes][Ronan Lashermes, Thomas Trouchkine]] (INRIA, ANSSI). /How modern System-on-Chips are vulnerable to fault attacks./
-+ 11:25--11:40   Pause
-+ 11:40--12:30   *Session #2. Architectures matérielles robustes*
++ 11h25--11h40   Pause
++ 11h40--12h30   *Session #2. Architectures matérielles robustes*
   + [[#beroulle][Vincent Beroulle]] (LCIS Valence). /Analyse de fautes au niveau RTL./
   + [[#savry][Olivier Savry]] (CEA). /IntrinSec: an intrinsically secure RISC V processor./
   + Discussion
-+ 12:30--13:45   Déjeuner
-+ 13:45--14:35   *Session #3. Questions ouvertes sur la sécurité des systèmes*
++ 12h30--13h45   Déjeuner
++ 13h45--14h35   *Session #3. Questions ouvertes sur la sécurité des systèmes*
   + [[#bouffard][Guillaume Bouffard]] (ANSSI). /Certification et IoT./
   + [[#potet][Laurent Mounier et Marie-Laure Potet]] (VERIMAG). /Concevoir des applications robustes à l’injection de fautes (projet CLAPs)./
   + Discussion
-+ 14:35--14:50   Pause
-+ 14:50--15:40   *Session #4. Protections logicielles*
++ 14h35--14h50   Pause
++ 14h50--15h40   *Session #4. Protections logicielles*
   + [[#deferriere][François de Ferrière]] (STMicroelectronics). /Compilation de contre-mesures./
   + [[#proy][Julien Proy]] (INVIA). /Sécurisation automatisée des boucles à la compilation./
   + Discussion
-+ 15:40--15:55   Pause
-+ 15:55--16:45   *Session #5. Analyse de code*
++ 15h40--15h55   Pause
++ 15h55--16h45   *Session #5. Analyse de code*
   + [[#feliot][David Féliot]] (CEA Grenoble). /Techniques d’analyse statique pour détecter des vulnérabilités sécuritaires lors d’une revue de code./
   + [[#brejon][Jean-Baptiste Bréjon]] (LIP6). /Évaluation sécuritaire de code binaire soumis à des attaques en faute./
   + Discussion
-+ 16:45--16:50   Conclusion de la journée
++ 16h45--16h50   Conclusion de la journée
 
+
+#+latex: \pagebreak
 * Résumés des présentations
     :PROPERTIES:
   :CUSTOM_ID: sec:resumes
