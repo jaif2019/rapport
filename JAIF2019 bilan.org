@@ -150,11 +150,25 @@ matinée, et 100 environ l'après-midi.
 
 * Retours sur le sondage post-journée
 
-Les participants à la journée ont fait des retours très positifs sur
+Les participants à la journée ont fait des retours informels très positifs sur
 l'intérêt de ce type de journée, sur cette thématique scientifique en
 particulier.
 
-- [ ] TODO.  compléter avec une synthèse du sondage
+Nous avons réalisé un sondage anonyme afin de quantifier la satisfaction des participants, d'évaluer l'intérêt de ces journées et de définir le format des journées futures ainsi que leur fréquence.
+Nous avons obtenu 82 réponses soit un taux de réponse de 68\%.
+
+
+Le résultat du sondage est donnée en annexe~\ref{annexe:sondage}.
+
+Globalement, les participants ont trouvé la journées intéressante (87,8\%), instructive (80,5\%) et productive (28\%). Le format de la journée était parfait (ni trop dense, ni pas assez dense) pour 82,5\% et trop dense pour 11,3\%. 43,8\% des réponses ont trouvé  qu'il y avait un bon équilibre entre présentations de séniors et de doctorants.
+
+Les motivations pour la participation à cette journée était de faire de la veille scientifique et technique (82.9\%) et du réseautage (37,8\%) mais aussi d'être en contact avec la communauté (52.4\%) ou de prendre contact avec le domaine (15.9\%).
+
+Concernant la location à Grenoble, seulement 26.8\% n'auraient pas assisté à la journée 2019 si elle avait été ailleurs, et 36,6\% seraient venus si la localisation avait été différente, 36,6\% ne savent pas.
+
+
+Concernant la pérennisation de JAIF, 92,5\% des réponses sont pour et 7,5\% sans avis (aucun avis contre donc). La fréquence souhaitée est à 75,9\% annuelle, 15,2\% aimeraient 2 éditions par an et 8,9\% une seule tous les deux ans. 97,5\% sont favorables à une journée entière dédiée au sujet (plutôt qu'une demi-journée ou 2 jours). Le contenu souhaité est composé, comme cette année, de présentations techniques ou de résultats de recherche effectués par de jeunes chercheurs, de chercheurs sénior et des industriels.
+Enfin, 65\% préfèrent une journée isolée d'un autre évenement.
 
 * Perspectives
 
@@ -457,3 +471,67 @@ l'analyse de vulnérabilités, l'analyse des effets des optimisations de
 code de compilateurs ainsi qu'à la comparaison de différentes
 protections combinées ou non sur des codes protégés au niveau du code
 source.
+
+
+
+
+\appendix
+\section{Résultats qualitatif du sondage post-journée}
+\label{annexe:sondage}
+Cette annexe présente les retours du sondage post-JAIf 2019.
+
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.65\textwidth]{images/retour_qualificatif_jaif2019.png}
+\caption{Retour global sur JAIF 2019.}
+\end{figure}
+
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.65\textwidth]{images/retour_format_jaif2019.png}
+\caption{Retour sur la format de JAIF 2019.}
+\end{figure}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.65\textwidth]{images/motivations_jaif2019.png}
+\caption{Motivations pour la participation à JAIF 2019.}
+\end{figure}
+
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.65\textwidth]{images/localisation_jaif2019.png}
+\caption{Impact du lieu de JAIF 2019 sur la participation.}
+\end{figure}
+
+
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.65\textwidth]{images/perennisation.png}
+\caption{Avis sur une pérennisation des JAIF.}
+\end{figure}
+
+
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.65\textwidth]{images/frequence.png}
+\caption{Avis sur la fréquence de futures éditions.}
+\end{figure}
+
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.65\textwidth]{images/format.png}
+\caption{Avis sur le format pour de futures éditions.}
+\end{figure}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.65\textwidth]{images/contenu_jaif2020.png}
+\caption{Avis sur le contenu pour la prochaine édition.}
+\end{figure}
